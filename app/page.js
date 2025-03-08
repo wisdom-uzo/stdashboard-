@@ -15,7 +15,7 @@ export default function Login() {
     e.preventDefault();
 
     // Default credentials
-    if (matricNumber === '23010231060' && password === 'adeyemi ') {
+    if (matricNumber === '23010231060' && password === 'adeyemi') {
       setError('');
       alert('Login successful!');
       router.push('/dashboard'); // Redirect to dashboard
